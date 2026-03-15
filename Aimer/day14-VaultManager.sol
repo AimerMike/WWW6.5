@@ -1,7 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {IDepositBox, BaseDepositBox, BasicDepositBox} from "./day14-BaseDepositBox.sol"; 
+import {IDepositBox, BaseDepositBox } from "./day14-BaseDepositBox.sol"; 
+import {BasicDepositBox } from "./day14-BasicDepositBox.sol"; 
 import {PremiumDepositBox} from "./day14-PremiumDepositBox.sol";
 import {TimeLockedDepositBox} from "./day14-TimeLockedDepositBox.sol";
 
