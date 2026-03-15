@@ -21,7 +21,6 @@ contract PreorderTokens is SimpleERC20{
         uint256 _salesDurationInSeconds,
         uint256 _minPurchase,
         uint256 _maxPurchase,
-        uint256 _totalRaised,
         address _projectOwner
     )SimpleERC20(_initialSupply){
         tokenPrice=_tokenPrice;
